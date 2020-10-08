@@ -1,0 +1,202 @@
+/* sub02_portfolio.css */
+
+div.port{}
+div.port>.top{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.port>.top>article{
+  width: calc(100% / 2);
+  height: 100vh;
+  padding: 35vh 30px 100px;
+  background-position: -220px center;
+  background-size: cover;
+  /* background-blend-mode: luminosity; */
+  filter: saturate(0%);
+
+  transition-property:  filter, background-blend-mode,background-position;
+  transition-duration: 1s;
+}
+div.port>.top>article>.segment{
+  position: relative;
+  text-shadow: 1px 2px 5px rgba(0,0,0,0);
+
+  transition: all 0.3s;
+
+}
+div.port>.top>article:hover>.segment{
+  text-shadow: 3px 2px 5px rgba(0,0,0,0.7);
+}
+div.port>.top>article:hover{
+  background-blend-mode: normal;
+  filter: brightness(100%);
+  filter: saturate(100%);
+}
+div.port>.top>article:nth-of-type(1){
+    background-color: #eee;
+    background-image: url(../image/patacover.jpg);
+}
+div.port>.top>article:nth-of-type(2){
+    background-color: #eee;
+    background-image: url(../image/jeepcover.jpg);
+}
+
+div.port>.top>article:hover{
+  background-position:  -280px center ;
+}
+div.port>.top>article>.segment>button{
+  display: block;
+  border: 0;
+  font-size: 18px;
+  font-family: 'Noto serif SC';
+  font-weight: 700;
+  color: #eee;
+  background-color: transparent;
+  margin-top: 20px;
+  line-height: 30px;
+
+}
+div.port>.top>article>.segment>button:nth-of-type(2){
+  color: #fff;
+  position: relative;
+}
+div.port>.top>article>.segment>button:nth-of-type(2)::before{
+  display: block;
+  content: "";
+  width: 0px;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  background-color: #590000;
+  z-index: -1;
+
+  transition-property: width;
+  transition-duration: 1.2s;
+
+}
+div.port>.top>article:hover>.segment>button:nth-of-type(2)::before{
+  width: 150px;
+}
+
+div.port>.top>article>.segment>h3{
+  width: 98%;
+  line-height: 100px;
+  border-bottom: 1px solid #fff;
+  text-shadow: 1px 1px 7px rgba(0,0,0,0.5);
+
+}
+div.port>.top>article>.segment>h4{
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 60px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  text-shadow: 1px 1px 7px rgba(0,0,0,0.5);
+}
+div.port>.top>article>.segment>h5{
+  font-weight: 900;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 20px;
+
+}
+div.port>.top>article>.segment>h3>span{
+  color: #fff;
+}
+div.port>.top>article>.segment>p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+div.port>.bt{
+  display: flex;
+  position: relative;
+
+}
+div.port>.bt>.overlay{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.7);
+  opacity: 0;
+  position: absolute;
+  top: -100vh;
+  z-index: -1;
+}
+div.port>.bt>article{
+    width: calc(100% / 2);
+    height: 100vh;
+    color: #000;
+    height: 100vh;
+    padding: 5vh 2.5vw;
+    background-image: url(../image/portfolio_pata4.jpg);
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    top: 0vh;
+    cursor: pointer;
+    z-index: 99999;
+
+}
+div.port>.bt>.jeep{
+    background-image: url(../image/portfolio_jeep2.jpg);
+}
+
+div.port>.bt>article>.segment{
+  padding: 5px 0;
+  font-weight: 900;
+}
+div.port>.bt>article h3{
+  font-size: 24px;
+}
+div.port>.bt>article h4{
+  font-size: 18px;
+}
+div.port>.bt>article p{
+  margin-top: 0;
+  font-size: 14px;
+  color: #666;
+}
+div.port>.bt>article ul{
+  margin-top: 20px;
+}
+div.port>.bt>article ul>li{
+  font-size: 18px;
+
+}
+div.port>.bt>article>.segment:nth-of-type(3)>ul>li{
+  display: inline-block;
+  margin-right: 20px;
+  padding: 0 10px;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+div.port>.bt>.patagonia>.segment:nth-of-type(3)>ul>li:nth-of-type(1){
+  background-color: #000;
+}
+div.port>.bt>.patagonia>.segment:nth-of-type(3)>ul>li:nth-of-type(2){
+  background-color: #fe582b;
+}
+div.port>.bt>.patagonia>.segment:nth-of-type(3)>ul>li:nth-of-type(3){
+  background-color: #015cd0;
+}
+div.port>.bt>.jeep>.segment:nth-of-type(3)>ul>li:nth-of-type(1){
+  background-color: #000;
+}
+div.port>.bt>.jeep>.segment:nth-of-type(3)>ul>li:nth-of-type(2){
+  background-color: #edad01;
+}
+div.port>.bt>.aia>.segment:nth-of-type(3)>ul>li:nth-of-type(1){
+  background-color: #fff;
+  color: #000;
+
+}

@@ -1,0 +1,60 @@
+/* sub04_contactMe.css */
+
+
+div.content{
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../image/contact_Img2.jpg);
+}
+div.content>header{
+position: absolute;
+left: 30px;
+top: 5vh;
+width: 130px;
+opacity: 0;
+}
+div.content>header>h2{
+
+}
+div.content>header span{
+
+
+}
+div.content>header>.line{
+
+  height: 0px;
+  width: 2px;
+  background-color: #000;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+
+}
+
+div.content>section{
+position: absolute;
+bottom: -50px;
+right: 50px;
+opacity: 0;
+
+}
+div.content>section>article{
+
+}
+div.content>section>article>.segment{}
+div.content>section>article>.segment strong{
+  font-weight: 900;
+}
+div.content>section>article>.segment h3{
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 100px;
+  text-align: right;
+  color: #000;
+}
+div.content>section>article>.segment h3:nth-of-type(2){
+  line-height: 90px;
+}

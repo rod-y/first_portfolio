@@ -1,0 +1,12 @@
+/* index_mx720.css */
+
+div.hdrWrap.main>header img{
+  width: 35px;
+  padding-top: 10px;
+}
+div.hdrWrap.main>header>.nav{
+  font-size: 24px;
+}
+div.navWrap.main{
+  width: 35vw;
+}

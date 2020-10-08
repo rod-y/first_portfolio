@@ -1,0 +1,135 @@
+/* sub03_introduce_mx420.css */
+
+
+
+div.wrapper{}
+div.container{
+  display: block;
+}
+div.container>.content{
+  width: 100vw;
+  height: 100vh;
+}
+div.container header h2{}
+div.container>.intro{}
+div.container>.intro>.fade{}
+div.container>.intro>.hdrWrap{}
+div.container>.intro>.hdrWrap>header{}
+div.container>.intro>.hdrWrap>header>.h2Wrap{
+  width: 60%;
+}
+div.container>.intro>.hdrWrap>header>.h2Wrap>h2{}
+div.container>.intro>.hdrWrap>header h2 span{
+font-size: 54px;
+  line-height: 50px;
+}
+div.container>.intro>.hdrWrap>header h2 span:nth-of-type(1){}
+div.container>.intro>.hdrWrap>header>p{
+  font-size: 16px;
+}
+div.container>.intro>.hdrWrap>.line{
+  display: none;
+}
+
+
+/* skills  */
+
+div.container>.skills{}
+div.container>.skills>section{}
+div.container>.skills>.left{}
+div.container>.skills>.right{}
+div.container>.skills>section>header{}
+div.container>.skills>section>header>.line{}
+div.container>.skills>section>header>.h2Wrap{}
+div.container>.skills>section>header h2{}
+div.container>.skills>.left>article{}
+div.container>.skills>section>article>.image{}
+
+
+div.container>.skills>.right>article{}
+div.container>.skills>.right>article>.segment{}
+div.container>.skills>.right>article>.segment>p{}
+div.container>.skills>.right>.artWrap{}
+div.container>.skills>.right>.artWrap>article{}
+div.container>.skills>.right>.artWrap>article:nth-of-type(3)~article{}
+div.container>.skills>.right>.artWrap>article>.circle{}
+div.container>.skills>.right>.artWrap>article>ul{}
+div.container>.skills>.right>.artWrap>article>ul>li{}
+div.container>.skills>.right>.artWrap>article>.left{}
+div.container>.skills>.right>.artWrap>article>.left>li{}
+div.container>.skills>.right>.artWrap>article>.right{}
+div.container>.skills>.right>.artWrap>article>.right>li{}
+
+div.container>.skills>.right>.artWrap>article>.segment{}
+
+div.container>.skills>.right>.artWrap>article>.segment>h3{}
+div.container>.skills>.right>.artWrap>article.cummui>.segment{}
+div.container>.skills>.right>.artWrap>article.cummui>.segment>h3{}
+
+div.container>.skills>.right>.artWrap>article>.overlay{}
+div.container>.skills>.right>.artWrap>article.cummui:hover .overlay{}
+div.container>.skills>.right>.artWrap>article>.overlay>p{}
+@keyframes dot {
+  0% {
+    color: #000;
+  }
+  40%{
+    color: #fff;
+  }
+  100%{
+    color: #000;
+  }
+}
+
+div.container>.skills>.right>.artWrap>article>.segment>h4{}
+div.container>.skills>.right>.artWrap>article>.segment>p{}
+
+div.personal{}
+div.personal>section{}
+div.personal>section>header{}
+div.personal>section>header>.h2Wrap{}
+div.personal>section>header>.h2Wrap>h2{}
+
+div.personal>.left{}
+div.personal>section>.artWrap{}
+
+div.personal>section>.artWrap>.artGroup{}
+div.personal>section>.artWrap>.artGroup>article{}
+div.personal>section>.artWrap>.artGroup>article>.image{}
+div.personal>section>.artWrap>.artGroup>article>.segment{}
+div.personal>section>.artWrap>.artGroup>article>.segment>h3{}
+div.personal>section>.artWrap>.artGroup>article>.segment>p{}
+
+div.personal>.right{}
+
+/* 이미지 경로 정리 (personal) */
+
+
+div.personal article .image{}
+div.personal article:hover .image{}
+
+
+
+div.vision{}
+div.vision>section{}
+
+div.vision>.left{}
+div.vision>.left>header{}
+div.vision>.left>header>h2:last-of-type{}
+div.vision>.left>header>.line{}
+div.vision>.right{}
+div.vision>.right>.artWrap{}
+div.vision>.right>.artWrap>.artGroup{}
+div.vision>.right article{}
+div.vision>.right article>.segment{}
+div.vision>.right article>.segment>h3{}
+div.vision>.right article>.segment>p{}
+div.vision>.right article:hover>.segment{}
+div.vision>.right>.artWrap>.da{}
+div.vision>.right>.artWrap>.da2{}
+div.vision>.right>.left{}
+div.vision>.right>.left>.artGroup>article{}
+
+div.vision>.right>.left>.artGroup>article:nth-of-type(2){}
+
+div.vision>.right article .image{}

@@ -1,0 +1,91 @@
+/* index.css */
+
+
+div.hdrWrap.main{
+  position: relative;
+    z-index: 9999;
+}
+div.hdrWrap.main>header{
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50px;
+}
+div.hdrWrap.main>header>.nav{
+  font-size: 30px;
+  line-height: 50px;
+  color: #000;
+}
+
+div.navWrap.main{
+    height: 100vh;
+    width: 25vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #eee;
+    padding: 20vh 5vw;
+    margin-right: -100%;
+    z-index: 1000;
+    box-shadow: -30px 0px 30px rgba(0,0,0,0.3);
+    background-image: url(../image/nav_img.jpg);
+    background-blend-mode: lighten;
+
+}
+
+div.navWrap.main>.nav{
+      padding-top: 60px;
+}
+div.navWrap.main>.nav>li{
+  font-family: 'Noto Serif SC', 'Chosunilbo_myungjo';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  color: #000;
+  text-align: right;
+  position: relative;
+  border-bottom: 2px solid rgba(0,0,0,0.0);
+  transition-property:border-bottom;
+  transition-duration: .8s;
+
+}
+
+div.navWrap.main .Text{
+  position: relative;
+
+}
+div.navWrap.main li:hover{
+  border-bottom: 1px solid rgba(0,0,0,1);
+}
+div.navWrap.main li:nth-of-type(1)~li{
+  margin-top: 40px;
+}
+div.mnWrap{
+  width: 100%;
+}
+div.mnWrap>video{
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0; right: 0;
+  z-index: -1;
+}
+/* div.mnWrap>main{
+  height: 100vh;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../image/main_Img.jpg);
+} */

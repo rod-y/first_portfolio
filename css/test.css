@@ -1,0 +1,45 @@
+
+
+div.experience{}
+div.experience>section{
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+div.experience>section>.artWrap{}
+div.experience>section>.artWrap>.artGroup{
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.experience>section article{
+  width: 230px;
+  height: 230px;
+  background-color: #ccc;
+  outline: 1px solid red;
+}
+div.experience>section>.artWrap>.da{
+  width: 480px;
+  height: 480px;
+}
+div.experience>section>.artWrap>.da2{
+  width: 480px;
+  height: 780px;
+  margin-top: 20px;
+}
+div.experience>section>.left{
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+div.experience>section>.left>.artGroup>article{
+  margin-top: 20px;
+}
+div.experience>section>.left>.artGroup>article:nth-of-type(2){
+  margin-left: 20px;
+}

@@ -1,0 +1,41 @@
+/* sub02_portfolio_mx720.css */
+/* sub02_portfolio.css */
+
+div.port{}
+div.port>.top{}
+
+div.port>.top>article{}
+div.port>.top>article>.segment{}
+div.port>.top>article:hover>.segment{}
+div.port>.top>article:hover{}
+div.port>.top>article:nth-of-type(1){}
+div.port>.top>article:nth-of-type(2){}
+div.port>.top>article:nth-of-type(3){}
+div.port>.top>article:nth-of-type(3):hover{}
+div.port>.top>article:hover{}
+div.port>.top>article>.segment>button{}
+div.port>.top>article>.segment>button:nth-of-type(2){}
+div.port>.top>article>.segment>button:nth-of-type(2)::before{}
+div.port>.top>article:hover>.segment>button:nth-of-type(2)::before{}
+
+div.port>.top>article>.segment>h3{
+
+}
+div.port>.top>article>.segment>h4{}
+div.port>.top>article>.segment>h5{}
+div.port>.top>article>.segment>h3>span{
+    font-size: 6.429em;
+}
+div.port>.top>article>.segment>p{}
+
+div.port>.bt{}
+div.port>.bt>.overlay{}
+div.port>.bt>article{}
+div.port>.bt>.jeep{}
+div.port>.bt>.aia{}
+div.port>.bt>article>.segment{}
+div.port>.bt>article h3{}
+div.port>.bt>article h4{}
+div.port>.bt>article p{}
+div.port>.bt>article ul{}
+div.port>.bt>article ul>li{}

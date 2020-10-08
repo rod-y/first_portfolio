@@ -1,0 +1,555 @@
+
+
+div.wrapper{
+  width: 100%;
+  height: 100vh;
+}
+div.container{
+  width: 400%;
+  display: flex;
+}
+div.container>.content{
+width: 25%;
+}
+div.container header h2{
+  font-weight: 300;
+}
+div.container>.intro{
+
+  height: 100vh;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../image/introduce_main_BN.jpg);
+  position: relative;
+    overflow: hidden;
+}
+div.container>.intro>.fade{
+  width: 50%;
+  height: 100vh;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../image/introduce_main_b.jpg);
+  position: relative;
+
+  z-index: 1;
+  opacity: 0;
+
+}
+div.container>.intro>.hdrWrap{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 200px;
+  margin: auto;
+  z-index: 10;
+
+}
+div.container>.intro>.hdrWrap>header{
+  margin-left: 0px;
+  opacity: 0;
+}
+div.container>.intro>.hdrWrap>header>.h2Wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 520px;
+
+
+}
+div.container>.intro>.hdrWrap>header>.h2Wrap>h2{
+  font-size: 24px;
+  color: #eee;
+}
+div.container>.intro>.hdrWrap>header h2 span{
+  color: #eee;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+div.container>.intro>.hdrWrap>header h2 span:nth-of-type(1){
+  color: #ddd;
+  font-weight: 700;
+}
+div.container>.intro>.hdrWrap>header>p{
+  color: #fff;
+  width: 500px;
+  line-height: 30px;
+  /* margin-top: 20px; */
+  opacity: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+div.container>.intro>.hdrWrap>.line{
+    height: 2px;
+    width:0vw;
+    background-color: #fff;
+}
+
+
+/* skills  */
+
+div.container>.skills{
+
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+div.container>.skills>section{
+  width: 50%;
+  position: relative;
+}
+div.container>.skills>.left{
+  background-color: #eee;
+}
+div.container>.skills>.right{
+
+}
+
+div.container>.skills>section>header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 200px;
+  margin: auto;
+  z-index: 2;
+  opacity: 0;
+}
+div.container>.skills>section>header>.line{
+  height: 2px;
+  width: 0vw;
+  background-color: #000;
+}
+div.container>.skills>section>header>.h2Wrap{
+  width: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+div.container>.skills>section>header h2{
+  font-size: 24px;
+  color: #000;
+}
+div.container>.skills>.left>article{
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+}
+div.container>.skills>section>article>.image{
+  width: 500px;
+  height: 670px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+
+  background-image: url(../image/nengli.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+div.container>.skills>.right>article{
+  background-color: #ddd;
+  height: 40vh;
+  width: 100%;
+  position: relative;
+  background-image: url(../image/texture-1504364_1920.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-blend-mode: screen;
+
+}
+div.container>.skills>.right>article>.segment{
+padding: 20vh 30px 20px;
+
+
+
+}
+div.container>.skills>.right>article>.segment>p{
+  color: #000;
+  margin-top: 0;
+}
+div.container>.skills>.right>.artWrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+div.container>.skills>.right>.artWrap>article{
+  width: 260px;
+  height: 260px;
+  border-radius: 130px;
+  position: relative;
+  padding: 5px 0;
+  overflow: hidden;
+}
+div.container>.skills>.right>.artWrap>article:nth-of-type(3)~article{
+  margin-top: 10px;
+}
+div.container>.skills>.right>.artWrap>article>.circle{
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+div.container>.skills>.right>.artWrap>article>ul{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+}
+div.container>.skills>.right>.artWrap>article>ul>li{
+  width: 100%;
+  height: 100%;
+}
+div.container>.skills>.right>.artWrap>article>.left{
+  overflow: hidden;
+  left: 0;
+}
+div.container>.skills>.right>.artWrap>article>.left>li{
+  background-color: #590000;
+  transform: rotate(180deg);
+  transform-origin: right;
+}
+div.container>.skills>.right>.artWrap>article>.right{
+  overflow: hidden;
+  right: 0;
+}
+div.container>.skills>.right>.artWrap>article>.right>li{
+  background-color: #590000;
+  transform: rotate(0deg);
+  transform-origin: right;
+  margin-left: -130px;
+}
+
+div.container>.skills>.right>.artWrap>article>.segment{
+  font-weight: 900;
+  color: #000;
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;right: 0;
+  border-radius: 150px;
+  background-color: #eee;
+  text-align: center;
+  padding-top: 80px;
+}
+
+div.container>.skills>.right>.artWrap>article>.segment>h3{
+  font-size: 24px;
+}
+div.container>.skills>.right>.artWrap>article.cummui>.segment{
+  background-color: #ccc;
+}
+div.container>.skills>.right>.artWrap>article.cummui>.segment>h3{
+
+  animation-name: dot;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+
+  cursor: pointer;
+}
+
+div.container>.skills>.right>.artWrap>article>.overlay{
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;right: 0;
+  border-radius: 150px;
+  background-color: #eee;
+  text-align: center;
+  padding-top: 20px;
+  opacity: 0;
+
+  transition: opacity 0.5s;
+}
+div.container>.skills>.right>.artWrap>article.cummui:hover .overlay{
+  opacity: 1;
+}
+div.container>.skills>.right>.artWrap>article>.overlay>p{
+  width: 230px;
+  height: 230px;
+  margin-top: 0;
+  overflow: hidden;
+  padding-top: 40px;
+  color: #000;
+}
+
+
+
+
+@keyframes dot {
+  0% {
+    color: #000;
+  }
+  40%{
+    color: #fff;
+  }
+  100%{
+    color: #000;
+  }
+}
+
+div.container>.skills>.right>.artWrap>article>.segment>h4{
+  font-size: 24px;
+}
+div.container>.skills>.right>.artWrap>article>.segment>p{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 150px;
+  background-color: #fff;
+}
+
+div.personal{
+
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+div.personal>section{
+  width: 50%;
+  position: relative;
+}
+div.personal>section>header{
+  position: absolute;
+  left: 80px;
+  top: 0px;
+  opacity: 0;
+  z-index: 100;
+}
+div.personal>section>header>.h2Wrap{
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+}
+div.personal>section>header>.h2Wrap>h2{
+  font-size: 24px;
+  color: #aaa;
+
+}
+
+div.personal>.left{
+  position: relative;
+  background-color: #ddd;
+  background-image: url(../image/texture-1504364_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: screen;
+
+}
+div.personal>section>.artWrap{
+  height: 480px;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  margin-left: 40px;
+}
+
+div.personal>section>.artWrap>.artGroup{
+  width: 85vw;
+  height: 480px;
+  display: flex;
+  justify-content: space-around;
+
+}
+div.personal>section>.artWrap>.artGroup>article{
+  width: calc(100% / 4 - 20px);
+  height: 480px;
+  background-color: #eee;
+  box-shadow: 1px 3px 7px rgba(0,0,0,0.3);
+  padding: 50px 30px 30px;
+}
+div.personal>section>.artWrap>.artGroup>article>.image{}
+div.personal>section>.artWrap>.artGroup>article>.segment{
+  margin-top: 20px;
+  text-align: center;
+}
+div.personal>section>.artWrap>.artGroup>article>.segment>h3{
+  font-family: 'Noto serif SC';
+  font-size: 36px;
+  font-weight: 900;
+  color: #000;
+
+
+}
+div.personal>section>.artWrap>.artGroup>article>.segment>p{
+  color: #666;
+}
+
+div.personal>.right{
+  background-image: url(../image/bg_character.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+/* 이미지 경로 정리 (personal) */
+
+
+div.personal article .image{
+  width: 100%;
+  height: 30%;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  filter: brightness(100%);
+}
+div.personal article:hover .image{
+  filter: brightness(0%);
+}
+div.personal article .i1{background-image: url(../image/idea.png);}
+div.personal article .i2{background-image: url(../image/workhard.png);}
+div.personal article .i3{background-image: url(../image/ambitious.png);}
+div.personal article .i4{background-image: url(../image/nice.png);}
+
+
+
+div.vision{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #ddd;
+    background-image: url(../image/texture-1504364_1920.jpg);
+    background-blend-mode:screen;
+  }
+div.vision>section{}
+
+div.vision>.left{
+    position: relative;
+  }
+div.vision>.left>header{
+    position: absolute;
+    left: 30px;
+    top: 8vh;
+    width: 130px;
+    opacity: 0;
+  }
+div.vision>.left>header>h2:last-of-type{
+  width: 100px;
+  font-size: 24px;
+  color: #000;
+  margin: 0 auto;
+  opacity: 0;
+  text-align: center;
+
+}
+div.vision>.left>header>.line{
+    width: 2px;
+    height: 0vh;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  div.vision>.right{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url(../image/bgi.png);
+    background-position: left center;
+    background-size: 100%;
+    padding: 5vh 1.5vw;
+    overflow: hidden;
+  }
+  div.vision>.right>.artWrap{
+    width: calc(100% / 2 - 10%);
+
+  }
+  div.vision>.right>.artWrap>.artGroup{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div.vision>.right article{
+    width: calc(100% / 2 - 20px);
+    height: 220px;
+    background-color: #ccc;
+    position: relative;
+  }
+  div.vision>.right article>.segment{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    color: #fff;
+    padding: 25% 5%;
+    text-align: center;
+    transition: opacity, .5s;
+  }
+  div.vision>.right article>.segment>h3{
+    font-size: 24px;
+  }
+  div.vision>.right article>.segment>p{
+    font-weight: 300;
+  }
+  div.vision>.right article:hover>.segment{
+    opacity: 1;
+
+  }
+  div.vision>.right>.artWrap>.da{
+    width: calc(100% - 20px);
+    height: 420px;
+  }
+  div.vision>.right>.artWrap>.da2{
+    width: calc(100% - 20px);
+    height: 600px;
+    margin-top: 20px;
+  }
+  div.vision>.right>.left{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  div.vision>.right>.left>.artGroup>article{
+    margin-top: 20px;
+  }
+
+  div.vision>.right>.left>.artGroup>article:nth-of-type(2){
+    margin-left: 20px;
+  }
+
+  div.vision>.right article .image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  div.vision>.right article .i1{
+    background-image: url(../image/vision_da.jpg);
+  }
+  div.vision>.right article .i2{
+    background-image: url(../image/vision_art1.jpg);
+  }
+  div.vision>.right article .i3{
+    background-image: url(../image/vision_art2.jpg);
+  }
+  div.vision>.right article .i4{
+    background-image: url(../image/vision_art3.jpg);
+  }
+  div.vision>.right article .i5{
+    background-image: url(../image/vision_da2.jpg);
+  }
